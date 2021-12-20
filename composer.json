@@ -1,7 +1,7 @@
 {
   "name": "webtheory/facade",
   "type": "library",
-  "description": "Api to use Laravel style facade classes in packages",
+  "description": "Collection of traits that enables use of Laravel style facade classes in packages",
   "homepage": "https://github.com/spider-mane/facade",
   "license": "MIT",
   "authors": [
