@@ -11,7 +11,7 @@ trait FacadeBaseTrait
     /**
      * @var ContainerInterface
      */
-    protected static ContainerInterface $container;
+    protected static $container;
 
     /**
      * The resolved object instances.
