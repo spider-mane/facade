@@ -114,9 +114,9 @@ trait FacadeBaseTrait
 
             if (method_exists(static::class, $method)) {
                 return ([static::class, $method])(...$args);
+            } else {
+                throw $methodException;
             }
-        } finally {
-            throw $methodException;
         }
     }
 }
